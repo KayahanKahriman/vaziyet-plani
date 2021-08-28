@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <title>A Blok</title>
+  <script>
+    const elem = document.getElementById('wrapper')
+    const panzoom = Panzoom(elem, {
+      maxScale: 5
+    })
+    panzoom.pan(10, 10)
+    panzoom.zoom(2, { animate: true })
+
+    // Panning and pinch zooming are bound automatically (unless disablePan is true).
+    // There are several available methods for zooming
+    // that can be bound on button clicks or mousewheel.
+    button.addEventListener('click', panzoom.zoomIn)
+    elem.parentElement.addEventListener('wheel', panzoom.zoomWithWheel)
+  </script>
+</head>
+
+<body>
+  <div id="wrapper" style="width:800px; height:400px; background-color:green; position:relative; overflow:hidden">
+    <img id="a-blok" src="./ABlok.jpg" border="0" width="1920" height="721" orgWidth="1920" orgHeight="721" usemap="#a-blok" alt="" />
+    <map name="a-blok" id="a-blok-image-map">
+      <area alt="" title="22" href="#disabled" shape="rect" coords="48,404,170,435" style="outline:none;" target="_self" />
+      <area alt="" title="20" href="#disabled" shape="rect" coords="48,437,171,467" style="outline:none;" target="_self" />
+      <area alt="" title="18" href="#disabled" shape="rect" coords="46,469,173,501" style="outline:none;" target="_self" />
+      <area alt="" title="16" href="#disabled" shape="rect" coords="46,502,173,535" style="outline:none;" target="_self" />
+      <area alt="" title="14" href="#disabled" shape="rect" coords="49,537,172,570" style="outline:none;" target="_self" />
+      <area alt="" title="12" href="#disabled" shape="rect" coords="49,570,171,603" style="outline:none;" target="_self" />
+      <area alt="" title="10" href="#disabled" shape="rect" coords="49,602,171,636" style="outline:none;" target="_self" />
+      <area alt="" title="8" href="#disabled" shape="rect" coords="50,637,172,671" style="outline:none;" target="_self" />
+      <area alt="" title="30" href="#disabled" shape="rect" coords="262,435,388,469" style="outline:none;" target="_self" />
+      <area alt="" title="28" href="#disabled" shape="rect" coords="263,469,389,501" style="outline:none;" target="_self" />
+      <area alt="" title="26" href="#disabled" shape="rect" coords="262,503,388,535" style="outline:none;" target="_self" />
+      <area alt="" title="24" href="#disabled" shape="rect" coords="263,536,389,570" style="outline:none;" target="_self" />
+      <area alt="" title="22" href="#disabled" shape="rect" coords="263,569,387,603" style="outline:none;" target="_self" />
+      <area alt="" title="20" href="#disabled" shape="rect" coords="262,604,387,638" style="outline:none;" target="_self" />
+      <area alt="" title="18" href="#disabled" shape="rect" coords="262,638,387,672" style="outline:none;" target="_self" />
+      <area alt="" title="34" href="#disabled" shape="rect" coords="479,434,604,468" style="outline:none;" target="_self" />
+      <area alt="" title="32" href="#disabled" shape="rect" coords="479,468,604,502" style="outline:none;" target="_self" />
+      <area alt="" title="30" href="#disabled" shape="rect" coords="479,502,604,536" style="outline:none;" target="_self" />
+      <area alt="" title="28" href="#disabled" shape="rect" coords="479,535,604,569" style="outline:none;" target="_self" />
+      <area alt="" title="26" href="#disabled" shape="rect" coords="480,570,605,603" style="outline:none;" target="_self" />
+      <area alt="" title="24" href="#disabled" shape="rect" coords="479,603,604,636" style="outline:none;" target="_self" />
+      <area alt="" title="22" href="#disabled" shape="rect" coords="480,638,605,671" style="outline:none;" target="_self" />
+      <area alt="" title="42" href="#disabled" shape="rect" coords="695,369,820,402" style="outline:none;" target="_self" />
+      <area alt="" title="40" href="#disabled" shape="rect" coords="695,402,820,435" style="outline:none;" target="_self" />
+      <area alt="" title="38" href="#disabled" shape="rect" coords="696,436,821,469" style="outline:none;" target="_self" />
+      <area alt="" title="36" href="#disabled" shape="rect" coords="695,469,820,502" style="outline:none;" target="_self" />
+      <area alt="" title="34" href="#disabled" shape="rect" coords="695,503,820,536" style="outline:none;" target="_self" />
+      <area alt="" title="32" href="#disabled" shape="rect" coords="694,537,819,570" style="outline:none;" target="_self" />
+      <area alt="" title="28" href="#disabled" shape="rect" coords="694,605,819,638" style="outline:none;" target="_self" />
+      <area alt="" title="30" href="#disabled" shape="rect" coords="695,570,820,603" style="outline:none;" target="_self" />
+      <area alt="" title="26" href="#disabled" shape="rect" coords="696,638,820,674" style="outline:none;" target="_self" />
+      <area alt="" title="38" href="#disabled" shape="rect" coords="910,368,1034,403" style="outline:none;" target="_self" />
+      <area alt="" title="36" href="#disabled" shape="rect" coords="910,402,1034,435" style="outline:none;" target="_self" />
+      <area alt="" title="34" href="#disabled" shape="rect" coords="911,436,1035,469" style="outline:none;" target="_self" />
+      <area alt="" title="32" href="#disabled" shape="rect" coords="912,469,1036,502" style="outline:none;" target="_self" />
+      <area alt="" title="30" href="#disabled" shape="rect" coords="910,504,1034,537" style="outline:none;" target="_self" />
+      <area alt="" title="28" href="#disabled" shape="rect" coords="911,537,1035,570" style="outline:none;" target="_self" />
+      <area alt="" title="26" href="#disabled" shape="rect" coords="910,570,1034,603" style="outline:none;" target="_self" />
+      <area alt="" title="24" href="#disabled" shape="rect" coords="910,604,1034,637" style="outline:none;" target="_self" />
+      <area alt="" title="22" href="#disabled" shape="rect" coords="910,638,1034,671" style="outline:none;" target="_self" />
+      <area alt="" title="52" href="#disabled" shape="rect" coords="1126,336,1250,369" style="outline:none;" target="_self" />
+      <area alt="" title="50" href="#disabled" shape="rect" coords="1127,369,1249,402" style="outline:none;" target="_self" />
+      <area alt="" title="48" href="#disabled" shape="rect" coords="1128,401,1249,434" style="outline:none;" target="_self" />
+      <area alt="" title="46" href="#disabled" shape="rect" coords="1129,436,1250,469" style="outline:none;" target="_self" />
+      <area alt="" title="44" href="#disabled" shape="rect" coords="1129,469,1250,502" style="outline:none;" target="_self" />
+      <area alt="" title="42" href="#disabled" shape="rect" coords="1128,503,1250,536" style="outline:none;" target="_self" />
+      <area alt="" title="40" href="#disabled" shape="rect" coords="1129,537,1250,570" style="outline:none;" target="_self" />
+      <area alt="" title="38" href="#disabled" shape="rect" coords="1127,570,1249,603" style="outline:none;" target="_self" />
+      <area alt="" title="36" href="#disabled" shape="rect" coords="1127,604,1249,637" style="outline:none;" target="_self" />
+      <area alt="" title="34" href="#disabled" shape="rect" coords="1127,638,1249,671" style="outline:none;" target="_self" />
+      <area alt="" title="58" href="#disabled" shape="rect" coords="1344,335,1466,368" style="outline:none;" target="_self" />
+      <area alt="" title="56" href="#disabled" shape="rect" coords="1344,369,1467,402" style="outline:none;" target="_self" />
+      <area alt="" title="54" href="#disabled" shape="rect" coords="1344,402,1467,435" style="outline:none;" target="_self" />
+      <area alt="" title="52" href="#disabled" shape="rect" coords="1343,436,1466,469" style="outline:none;" target="_self" />
+      <area alt="" title="50" href="#disabled" shape="rect" coords="1343,470,1466,503" style="outline:none;" target="_self" />
+      <area alt="" title="48" href="#disabled" shape="rect" coords="1343,504,1466,537" style="outline:none;" target="_self" />
+      <area alt="" title="46" href="#disabled" shape="rect" coords="1344,537,1467,570" style="outline:none;" target="_self" />
+      <area alt="" title="44" href="#disabled" shape="rect" coords="1343,571,1466,604" style="outline:none;" target="_self" />
+      <area alt="" title="42" href="#disabled" shape="rect" coords="1343,605,1466,638" style="outline:none;" target="_self" />
+      <area alt="" title="40" href="#disabled" shape="rect" coords="1343,638,1466,671" style="outline:none;" target="_self" />
+      <area alt="" title="44" href="#disabled" shape="rect" coords="1561,336,1684,369" style="outline:none;" target="_self" />
+      <area alt="" title="42" href="#disabled" shape="rect" coords="1562,368,1685,468" style="outline:none;" target="_self" />
+      <area alt="" title="40" href="#disabled" shape="rect" coords="1561,469,1684,501" style="outline:none;" target="_self" />
+      <area alt="" title="38" href="#disabled" shape="rect" coords="1561,502,1684,537" style="outline:none;" target="_self" />
+      <area alt="" title="36" href="#disabled" shape="rect" coords="1562,535,1685,570" style="outline:none;" target="_self" />
+      <area alt="" title="34" href="#disabled" shape="rect" coords="1562,569,1685,604" style="outline:none;" target="_self" />
+      <area alt="" title="32" href="#disabled" shape="rect" coords="1562,603,1685,638" style="outline:none;" target="_self" />
+      <area alt="" title="30" href="#disabled" shape="rect" coords="1562,637,1685,672" style="outline:none;" target="_self" />
+      <area alt="" title="50" href="#disabled" shape="rect" coords="1776,414,1899,449" style="outline:none;" target="_self" />
+      <area alt="" title="48" href="#disabled" shape="rect" coords="1776,448,1899,483" style="outline:none;" target="_self" />
+      <area alt="" title="46" href="#disabled" shape="rect" coords="1775,481,1898,516" style="outline:none;" target="_self" />
+      <area alt="" title="44" href="#disabled" shape="rect" coords="1777,514,1900,549" style="outline:none;" target="_self" />
+      <area alt="" title="42" href="#disabled" shape="rect" coords="1776,548,1899,583" style="outline:none;" target="_self" />
+      <area alt="" title="40" href="#disabled" shape="rect" coords="1775,582,1898,617" style="outline:none;" target="_self" />
+      <area alt="" title="38" href="#disabled" shape="rect" coords="1774,616,1897,684" style="outline:none;" target="_self" />
+      <area alt="" title="56" href="#disabled" shape="rect" coords="1127,109,1250,209" style="outline:none;" target="_self" />
+      <area alt="" title="54" href="#disabled" shape="rect" coords="1128,207,1251,307" style="outline:none;" target="_self" />
+      <area alt="" title="66" href="#disabled" shape="rect" coords="1346,74,1464,108" style="outline:none;" target="_self" />
+      <area alt="" title="64" href="#disabled" shape="rect" coords="1346,107,1464,141" style="outline:none;" target="_self" />
+      <area alt="" title="62" href="#disabled" shape="rect" coords="1346,141,1464,173" style="outline:none;" target="_self" />
+      <area alt="" title="60" href="#disabled" shape="rect" coords="1346,174,1464,307" style="outline:none;" target="_self" />
+      <area alt="" title="48" href="#disabled" shape="rect" coords="1561,175,1683,243" style="outline:none;" target="_self" />
+      <area alt="" title="46" href="#disabled" shape="rect" coords="1561,244,1683,312" style="outline:none;" target="_self" />
+      <area alt="" title="52" href="#disabled" shape="rect" coords="1778,158,1836,393" style="outline:none;" target="_self" />
+      <area shape="rect" coords="1918,719,1920,721" alt="Image Map" style="outline:none;" title="Image Map" href="#disabledindex.php?aff=mapped_users_0" />
+    </map>
+    <div id="dialog-content" style="display:none;">
+      <h2>Hello, world!</h2>
+      <p> See if changes remain after closing the dialog </p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="//unpkg.com/@panzoom/panzoom@4.4.1/dist/panzoom.min.js"></script>
+  <script>
+    const areas = Array.from(document.querySelectorAll("area"));
+    for (let i = 0; i < areas.length; i++) {
+      areas[i].addEventListener("click", (e) => {
+        Fancybox.show([{ src: "#dialog-content", type: "inline" }])
+        e.preventDefault();
+      }
+      )
+    }
+  </script>
+</body>
+
+</html>
